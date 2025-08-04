@@ -1,0 +1,134 @@
+/* General Reset & Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #0f0f0f;
+  color: #f2f2f2;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  color: #fff;
+  text-align: center;
+  padding: 5rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+}
+
+.hero span {
+  color: #ffe600;
+}
+
+.hero p {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+}
+
+.btn {
+  background: #fff;
+  color: #0072ff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+.btn:hover {
+  background: #ffe600;
+  color: #000;
+  transform: scale(1.05);
+}
+
+/* Navigation */
+.navbar {
+  background: #121212;
+  padding: 1rem;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.navbar a {
+  color: #f2f2f2;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.navbar a:hover {
+  color: #ffe600;
+}
+
+/* Sections */
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #ffe600;
+  margin-bottom: 1rem;
+}
+
+.project-card {
+  background: #1e1e1e;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-left: 5px solid #0072ff;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  background: #2a2a2a;
+}
+
+/* Contact */
+.socials {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+
+.socials a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.socials a:hover {
+  color: #00c6ff;
+}
+
+/* Footer */
+footer {
+  background: #000;
+  color: #888;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
